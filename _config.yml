@@ -1,61 +1,8 @@
-# The theme to use.
-remote_theme: "alshedivat/al-folio@master"
-
-# Site settings
 title: Feifan Liu
 email: feifan-liu@henu.edu.cn
-description: >- # this means to ignore newlines until "baseurl:"
-  A personal academic website for Feifan Liu.
-url: "https://LFF8888.github.io" # the base hostname & protocol for your site
-repository: "LFF8888/LFF8888.github.io" # the name of your GitHub repository
-# For development, you can uncomment the following line:
-# baseurl: ""
+description: A personal academic website for Feifan Liu.
+url: "https://LFF8888.github.io"
 
-# Profile information
-profile:
-  name: Feifan Liu
-  align: right
-  image: "images/profile_photo.jpg"
-  address: >
-    <p>Department of Automation</p>
-    <p>Henan University</p>
-    <p>Zhengzhou, China</p>
-
-# Social media links
-social:
-  name: Feifan Liu
-  links:
-    - https://github.com/LFF8888
-    - https://space.bilibili.com/1150690166
-    - https://blog.csdn.net/qq_38961840
-    - https://oshwhub.com/ff-studio/works
-  email: feifan-liu@henu.edu.cn
-
-# Plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-scholar
   - jekyll-sitemap
-
-#jekyll-scholar configuration
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: year
-  order: descending
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  generated: false
-
-# Files to exclude from the build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE 
