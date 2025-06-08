@@ -11,15 +11,16 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
 
-      - name: Install and Build 🔧
-        uses: actions/jekyll-build-pages@v1
+      - name: Set up Ruby and install dependencies
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
-          
+          ruby-version: '3.0' # Use a Ruby version compatible with al-folio
+          bundler-cache: true # Runs 'bundle install' and caches gems
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
