@@ -21,9 +21,6 @@ I was honored to be named the **"Star of Innovation" of 2025** by Henan Universi
 **Edge-Deployed Band-Split RoPE Transformer for Ultra-Low-Signal-to-Noise-Ratio UAV Speech Enhancement**  
 *First Author | Published in **Drones (JCR Q1, IF=4.8)** | Jan 2025 - Apr 2025*
 
-**RACE-Align: Retrieval-Augmented and Chain-of-Thought Enhanced Preference Alignment for Large Language Models**  
-*Corresponding Author | **Preprint (arXiv)** | May 2025 - Present*
-
 **A Compiler Optimization Engine Based on LLMs and RL**  
 *First Author | Draft Completed (Target Journal: Empirical Software Engineering) | Oct 2024 - Present*
 
